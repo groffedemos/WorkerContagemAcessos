@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 env:
-  IMAGEM_DOCKERHUB: ${{ secrets.DOCKERHUB_USERNAME }}/workercontagemkafa
+  IMAGEM_DOCKERHUB: ${{ secrets.DOCKERHUB_USERNAME }}/workercontagemkafka
 
 jobs:
 
